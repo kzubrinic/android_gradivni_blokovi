@@ -12,7 +12,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="prikaži sliku"
+        android:text="@string/prika_i_sliku"
         android:id="@+id/buttonPicture"
         android:onClick="prikazSlike" />
 
@@ -27,14 +27,14 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="sviraj glazbu"
+        android:text="@string/sviraj_glazbu"
         android:id="@+id/buttonSound"
         android:onClick="svirajGlazbu" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="pošalji sms poruku"
+        android:text="@string/po_alji_sms_poruku"
         android:id="@+id/buttonSms"
         android:layout_gravity="center_horizontal"
         android:onClick="posaljiSms" />
